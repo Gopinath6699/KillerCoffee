@@ -1,0 +1,158 @@
+.nav-wrapper{
+    background-color: black;
+}
+
+#banner1{
+    background-image: -webkit-linear-gradient(8deg, rgba(111,64,55,0.7) 100%, rgba(255,255,255,1) 100%), url(./images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.sidenav.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.sidenav.dark-mode li>a {
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.sidenav.dark-mode li>a>i, .sidenav.dark-mode li>a>[class^="mdi-"], .sidenav.dark-mode li>a li>a>[class*="mdi-"], .sidenav.dark-mode li>a>i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: white;
+}
+
+.icon-coffee .dark-mode {
+    color: white;
+}
+
+.footer-one .dark-mode{
+    background-color: black;
+}
+
+.myslider .caption{
+    font-family: 'Pacifico', 'san-serif';
+}
+.mynavbar ul li{
+font-family: 'Bree Serif', serif;
+}
+.mydescription .header{
+    font-family: 'Pacifico', 'san-serif';
+}
+
+.mydescription .desp{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 993px){
+    nav .brand-logo {
+        margin-left: 0px;
+        font-family: 'Pacifico', 'san-serif';
+    }
+}
+
+@media only screen and (min-width: 993px){
+    .mydescription .section .logo{
+            margin-top: 30px;
+        }
+    nav .brand-logo {
+        margin-left: 20px;
+        font-family: 'Pacifico', 'san-serif';
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .mydescription .section .logo{
+            margin-top: 10px;
+        }
+    nav .brand-logo {
+        margin-left: 20px;
+        font-family: 'Pacifico', 'san-serif';
+    }
+}
+
+.myslider.dark-mode .slider .indicators.dark-mode .indicator-item {
+    background-color: grey;
+}
+
+.myslider.dark-mode .slider .indicators.dark-mode .indicator-item.active {
+    background-color: white;
+}
+
+.myslider .slider .indicators .indicator-item {
+    background-color: grey;
+}
+
+.myslider .slider .indicators .indicator-item.active {
+    background-color: black;
+}
+
+.parallax-container{
+    min-height: 500px;
+    height: auto;
+    width: auto;
+}
+
+.icon-coffee.dark-mode{
+    color: white;
+}
+
+.icon-coffee{
+    color: black;
+}
+
+.footer-one{
+    background-color: black;
+}
+
+.pacifico{
+    font-family: 'Pacifico', 'san-serif'; 
+}
+
+.bree{
+    font-family: 'Bree Serif', serif;
+}
+
+.switch label .lever {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 14px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-right: 10px;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+    vertical-align: middle;
+    margin: 0 16px;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    background-color: lightseagreen;
+}
+
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    background-color: #ffffff;
+}
